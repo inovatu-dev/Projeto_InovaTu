@@ -13,7 +13,7 @@ import { GoogleTranslateService } from '@/core/service/google-translate.service'
     selector: 'topbar-widget',
     imports: [RouterModule, StyleClassModule, ButtonModule, RippleModule, TranslatePipe, LanguageSwitcherComponent],
     template: `
-        <img src="assets/images/inovatu_branco.png " alt="Inovatu Logo" class="mr-2 sm:h-16 h-16 w-auto mr-[10%]" />
+        <img src="assets/images/inovatu_branco.png" alt="Inovatu Logo" class="m-3 h-8 sm:h-16 w-auto mr-[10%]"/>
         <a pButton [text]="true" severity="secondary" [rounded]="true" pRipple class="lg:hidden!" pStyleClass="@next" enterFromClass="hidden" leaveToClass="hidden" [hideOnOutsideClick]="true">
             <i class="pi pi-bars text-2xl!"></i>
         </a>
