@@ -8,7 +8,7 @@ import { Router, RouterModule } from '@angular/router';
         <div id="footer" class=" bg-gradient-to-t from-[#0c0010] to-[#1a0020] text-gray-300 p-8  flex flex-wrap justify-between items-center gap-10">
 
   <div class="max-w-xs ">
-    <img src="/assets/images/inovatu_branco.png" alt="Inovatur" class="mr-2 sm:h-16 h-16 w-auto mr-[10%]">
+    <img src="assets/images/inovatu_branco.png" alt="Inovatu Logo" class="m-3 h-8 sm:h-16 w-auto mr-[10%]"/>
     <div class="mt-4">
         <p class=" text-sm text-white">
           Inovação. Conectando pessoas para um futuro melhor.
